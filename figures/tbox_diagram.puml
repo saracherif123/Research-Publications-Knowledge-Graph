@@ -1,0 +1,30 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+' Classes
+class Author
+class Paper
+class Conference
+class Workshop
+class Journal
+class Keyword
+class Review
+
+' Datatype Properties (as attributes on Paper)
+Paper : hasTitle : string
+Paper : hasAbstract : string
+Paper : hasYear : int
+Paper : hasDOI : string
+
+' Object Properties (as associations)
+Author --> Paper : authorOf
+Author --> Paper : correspondingAuthor
+Author --> Review : wroteReview
+Paper --> Keyword : about
+Paper --> Paper : related
+Paper --> Conference : publishedInConference
+Paper --> Workshop : publishedInWorkshop
+Paper --> Journal : publishedInJournal
+Review --> Paper : reviews
+
+@enduml
