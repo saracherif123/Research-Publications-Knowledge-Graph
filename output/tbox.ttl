@@ -1,0 +1,70 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Author a rdfs:Class .
+
+ex:Conference a rdfs:Class .
+
+ex:Journal a rdfs:Class .
+
+ex:Keyword a rdfs:Class .
+
+ex:Paper a rdfs:Class .
+
+ex:Review a rdfs:Class .
+
+ex:Workshop a rdfs:Class .
+
+ex:about a rdf:Property ;
+    rdfs:domain ex:Paper ;
+    rdfs:range ex:Keyword .
+
+ex:authorOf a rdf:Property ;
+    rdfs:domain ex:Author ;
+    rdfs:range ex:Paper .
+
+ex:correspondingAuthor a rdf:Property ;
+    rdfs:domain ex:Author ;
+    rdfs:range ex:Paper .
+
+ex:hasAbstract a rdf:Property ;
+    rdfs:domain ex:Paper ;
+    rdfs:range rdfs:Literal .
+
+ex:hasDOI a rdf:Property ;
+    rdfs:domain ex:Paper ;
+    rdfs:range rdfs:Literal .
+
+ex:hasTitle a rdf:Property ;
+    rdfs:domain ex:Paper ;
+    rdfs:range rdfs:Literal .
+
+ex:hasYear a rdf:Property ;
+    rdfs:domain ex:Paper ;
+    rdfs:range rdfs:Literal .
+
+ex:publishedInConference a rdf:Property ;
+    rdfs:domain ex:Paper ;
+    rdfs:range ex:Conference .
+
+ex:publishedInJournal a rdf:Property ;
+    rdfs:domain ex:Paper ;
+    rdfs:range ex:Journal .
+
+ex:publishedInWorkshop a rdf:Property ;
+    rdfs:domain ex:Paper ;
+    rdfs:range ex:Workshop .
+
+ex:related a rdf:Property ;
+    rdfs:domain ex:Paper ;
+    rdfs:range ex:Paper .
+
+ex:reviews a rdf:Property ;
+    rdfs:domain ex:Review ;
+    rdfs:range ex:Paper .
+
+ex:wroteReview a rdf:Property ;
+    rdfs:domain ex:Author ;
+    rdfs:range ex:Review .
+
