@@ -20,6 +20,10 @@ ex:about a rdf:Property ;
     rdfs:domain ex:Paper ;
     rdfs:range ex:Keyword .
 
+ex:affiliatedTo a rdf:Property ;
+    rdfs:domain ex:Author ;
+    rdfs:range rdfs:Literal .
+
 ex:authorOf a rdf:Property ;
     rdfs:domain ex:Author ;
     rdfs:range ex:Paper .
@@ -27,6 +31,10 @@ ex:authorOf a rdf:Property ;
 ex:correspondingAuthor a rdf:Property ;
     rdfs:domain ex:Author ;
     rdfs:range ex:Paper .
+
+ex:fullName a rdf:Property ;
+    rdfs:domain ex:Author ;
+    rdfs:range rdfs:Literal .
 
 ex:hasAbstract a rdf:Property ;
     rdfs:domain ex:Paper ;
@@ -40,8 +48,16 @@ ex:hasTitle a rdf:Property ;
     rdfs:domain ex:Paper ;
     rdfs:range rdfs:Literal .
 
+ex:hasVolume a rdf:Property ;
+    rdfs:domain ex:Journal ;
+    rdfs:range rdfs:Literal .
+
 ex:hasYear a rdf:Property ;
     rdfs:domain ex:Paper ;
+    rdfs:range rdfs:Literal .
+
+ex:keywordName a rdf:Property ;
+    rdfs:domain ex:Keyword ;
     rdfs:range rdfs:Literal .
 
 ex:publishedInConference a rdf:Property ;
@@ -59,6 +75,14 @@ ex:publishedInWorkshop a rdf:Property ;
 ex:related a rdf:Property ;
     rdfs:domain ex:Paper ;
     rdfs:range ex:Paper .
+
+ex:reviewComment a rdf:Property ;
+    rdfs:domain ex:Review ;
+    rdfs:range rdfs:Literal .
+
+ex:reviewScore a rdf:Property ;
+    rdfs:domain ex:Review ;
+    rdfs:range rdfs:Literal .
 
 ex:reviews a rdf:Property ;
     rdfs:domain ex:Review ;

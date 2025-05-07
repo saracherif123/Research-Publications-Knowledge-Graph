@@ -1,7 +1,7 @@
 @startuml
 skinparam classAttributeIconSize 0
 
-' Classes
+' === Classes ===
 class Author
 class Paper
 class Conference
@@ -10,13 +10,29 @@ class Journal
 class Keyword
 class Review
 
-' Datatype Properties (as attributes on Paper)
+' === Datatype Properties ===
+
+' Author
+Author : fullName : string
+Author : affiliatedTo : string
+
+' Paper
 Paper : hasTitle : string
 Paper : hasAbstract : string
 Paper : hasYear : int
 Paper : hasDOI : string
 
-' Object Properties (as associations)
+' Keyword
+Keyword : keywordName : string
+
+' Journal
+Journal : hasVolume : int
+
+' Review
+Review : reviewComment : string
+Review : reviewScore : int
+
+' === Object Properties ===
 Author --> Paper : authorOf
 Author --> Paper : correspondingAuthor
 Author --> Review : wroteReview
