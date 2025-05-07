@@ -1,1 +1,2 @@
-rdflib
+rdflib>=6.0
+pandas>=1.0
