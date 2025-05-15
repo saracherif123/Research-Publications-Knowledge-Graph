@@ -4,51 +4,47 @@ import sys
 
 def create_tbox_graph():
     g = Graph()
-    EX = Namespace("http://example.org/")
+    EX = Namespace("http://example.org/schema#")
     g.bind("ex", EX)
+    g.bind("rdf", RDF)
+    g.bind("rdfs", RDFS)
 
     # === Classes ===
-    classes = [
-        "Author", "Paper", "Conference", "Workshop",
-        "Journal", "Keyword", "Review"
-    ]
+    classes = ['Abstract', 'AcademicPublisher', 'Author', 'Conference',
+               'Event', 'IsCorrespondingAuthorOf', 'Journal', 'Keyword', 'Magazine',
+               'Paper', 'PaperCollection', 'Proceeding', 'Reviewer', 'Workshop','Venue','Year']
     for cls in classes:
         g.add((EX[cls], RDF.type, RDFS.Class))
 
     # === Object Properties ===
     object_props = {
-        "authorOf": ("Author", "Paper"),
-        "correspondingAuthor": ("Author", "Paper"),
-        "about": ("Paper", "Keyword"),
-        "publishedInConference": ("Paper", "Conference"),
-        "publishedInWorkshop": ("Paper", "Workshop"),
-        "publishedInJournal": ("Paper", "Journal"),
-        "related": ("Paper", "Paper"),
-        "reviews": ("Review", "Paper"),
-        "wroteReview": ("Author", "Review"),
+        "cites": ("Paper", "Paper"),           # A paper can cite another paper
+        "discusses": ("Paper", "Keyword"),      # A paper can discuss a keyword
+        "hasVenue": ("Event", "Venue"),        # An event has a venue
+        "hasYear": ("Event", "Year"),          # An event has a year
+        "includes": ("PaperCollection", "Paper"), # A paper collection includes papers
+        "publisedAt": ("Paper", "PaperCollection"), # A paper is published in a collection
+        "reviews": ("Reviewer", "Paper"),      # A reviewer reviews a paper
+        "summarizedBy": ("Paper", "Abstract"), # A paper is summarized by an abstract
+        "writes": ("Author", "Paper")          # An author writes a paper
     }
     for prop, (domain, range_) in object_props.items():
         g.add((EX[prop], RDF.type, RDF.Property))
         g.add((EX[prop], RDFS.domain, EX[domain]))
         g.add((EX[prop], RDFS.range, EX[range_]))
 
-    # === Datatype Properties ===
-    datatype_props = {
-        "hasTitle": "Paper",
-        "hasAbstract": "Paper",
-        "hasYear": "Paper",
-        "hasDOI": "Paper",
-        "fullName": "Author",
-        "affiliatedTo": "Author",
-        "keywordName": "Keyword",
-        "hasVolume": "Journal",
-        "reviewComment": "Review",
-        "reviewScore": "Review",
+    # === Subclass Relationships ===
+    subclasses = {
+        "Conference": "Event",
+        "Workshop": "Event",
+        "Journal": "PaperCollection",
+        "Conference": "PaperCollection",
+        "Workshop": "PaperCollection",
+        "Proceeding": "AcademicPublisher",
+        "Magazine": "AcademicPublisher"
     }
-    for prop, domain in datatype_props.items():
-        g.add((EX[prop], RDF.type, RDF.Property))
-        g.add((EX[prop], RDFS.domain, EX[domain]))
-        g.add((EX[prop], RDFS.range, RDFS.Literal))
+    for subclass, superclass in subclasses.items():
+        g.add((EX[subclass], RDFS.subClassOf, EX[superclass]))
 
     return g
 

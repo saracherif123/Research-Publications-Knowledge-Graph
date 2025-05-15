@@ -1,94 +1,77 @@
-@prefix ex: <http://example.org/> .
+@prefix ex: <http://example.org/schema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+ex:Abstract a rdfs:Class .
+
+ex:AcademicPublisher a rdfs:Class .
+
 ex:Author a rdfs:Class .
 
-ex:Conference a rdfs:Class .
+ex:Conference a rdfs:Class ;
+    rdfs:subClassOf ex:PaperCollection .
 
-ex:Journal a rdfs:Class .
+ex:Event a rdfs:Class .
+
+ex:IsCorrespondingAuthorOf a rdfs:Class .
+
+ex:Journal a rdfs:Class ;
+    rdfs:subClassOf ex:PaperCollection .
 
 ex:Keyword a rdfs:Class .
 
+ex:Magazine a rdfs:Class ;
+    rdfs:subClassOf ex:AcademicPublisher .
+
 ex:Paper a rdfs:Class .
 
-ex:Review a rdfs:Class .
+ex:PaperCollection a rdfs:Class .
 
-ex:Workshop a rdfs:Class .
+ex:Proceeding a rdfs:Class ;
+    rdfs:subClassOf ex:AcademicPublisher .
 
-ex:about a rdf:Property ;
+ex:Reviewer a rdfs:Class .
+
+ex:Venue a rdfs:Class .
+
+ex:Workshop a rdfs:Class ;
+    rdfs:subClassOf ex:PaperCollection .
+
+ex:Year a rdfs:Class .
+
+ex:cites a rdf:Property ;
+    rdfs:domain ex:Paper ;
+    rdfs:range ex:Paper .
+
+ex:discusses a rdf:Property ;
     rdfs:domain ex:Paper ;
     rdfs:range ex:Keyword .
 
-ex:affiliatedTo a rdf:Property ;
-    rdfs:domain ex:Author ;
-    rdfs:range rdfs:Literal .
-
-ex:authorOf a rdf:Property ;
-    rdfs:domain ex:Author ;
-    rdfs:range ex:Paper .
-
-ex:correspondingAuthor a rdf:Property ;
-    rdfs:domain ex:Author ;
-    rdfs:range ex:Paper .
-
-ex:fullName a rdf:Property ;
-    rdfs:domain ex:Author ;
-    rdfs:range rdfs:Literal .
-
-ex:hasAbstract a rdf:Property ;
-    rdfs:domain ex:Paper ;
-    rdfs:range rdfs:Literal .
-
-ex:hasDOI a rdf:Property ;
-    rdfs:domain ex:Paper ;
-    rdfs:range rdfs:Literal .
-
-ex:hasTitle a rdf:Property ;
-    rdfs:domain ex:Paper ;
-    rdfs:range rdfs:Literal .
-
-ex:hasVolume a rdf:Property ;
-    rdfs:domain ex:Journal ;
-    rdfs:range rdfs:Literal .
+ex:hasVenue a rdf:Property ;
+    rdfs:domain ex:Event ;
+    rdfs:range ex:Venue .
 
 ex:hasYear a rdf:Property ;
-    rdfs:domain ex:Paper ;
-    rdfs:range rdfs:Literal .
+    rdfs:domain ex:Event ;
+    rdfs:range ex:Year .
 
-ex:keywordName a rdf:Property ;
-    rdfs:domain ex:Keyword ;
-    rdfs:range rdfs:Literal .
-
-ex:publishedInConference a rdf:Property ;
-    rdfs:domain ex:Paper ;
-    rdfs:range ex:Conference .
-
-ex:publishedInJournal a rdf:Property ;
-    rdfs:domain ex:Paper ;
-    rdfs:range ex:Journal .
-
-ex:publishedInWorkshop a rdf:Property ;
-    rdfs:domain ex:Paper ;
-    rdfs:range ex:Workshop .
-
-ex:related a rdf:Property ;
-    rdfs:domain ex:Paper ;
+ex:includes a rdf:Property ;
+    rdfs:domain ex:PaperCollection ;
     rdfs:range ex:Paper .
 
-ex:reviewComment a rdf:Property ;
-    rdfs:domain ex:Review ;
-    rdfs:range rdfs:Literal .
-
-ex:reviewScore a rdf:Property ;
-    rdfs:domain ex:Review ;
-    rdfs:range rdfs:Literal .
+ex:publisedAt a rdf:Property ;
+    rdfs:domain ex:Paper ;
+    rdfs:range ex:PaperCollection .
 
 ex:reviews a rdf:Property ;
-    rdfs:domain ex:Review ;
+    rdfs:domain ex:Reviewer ;
     rdfs:range ex:Paper .
 
-ex:wroteReview a rdf:Property ;
+ex:summarizedBy a rdf:Property ;
+    rdfs:domain ex:Paper ;
+    rdfs:range ex:Abstract .
+
+ex:writes a rdf:Property ;
     rdfs:domain ex:Author ;
-    rdfs:range ex:Review .
+    rdfs:range ex:Paper .
 
