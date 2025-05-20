@@ -7,10 +7,10 @@ ex:AuthorShape a sh:NodeShape ;
     sh:targetClass ex:Author .
 
 ex:EventShape a sh:NodeShape ;
-    sh:property [ sh:class ex:Venue ;
-            sh:path ex:hasVenue ],
-        [ sh:class ex:Year ;
-            sh:path ex:hasYear ] ;
+    sh:property [ sh:class ex:Year ;
+            sh:path ex:hasYear ],
+        [ sh:class ex:Venue ;
+            sh:path ex:hasVenue ] ;
     sh:targetClass ex:Event .
 
 ex:PaperCollectionShape a sh:NodeShape ;
@@ -19,14 +19,14 @@ ex:PaperCollectionShape a sh:NodeShape ;
     sh:targetClass ex:PaperCollection .
 
 ex:PaperShape a sh:NodeShape ;
-    sh:property [ sh:class ex:Abstract ;
-            sh:path ex:summarizedBy ],
-        [ sh:class ex:Keyword ;
+    sh:property [ sh:class ex:Keyword ;
             sh:path ex:discusses ],
-        [ sh:class ex:Paper ;
-            sh:path ex:cites ],
+        [ sh:class ex:Abstract ;
+            sh:path ex:summarizedBy ],
         [ sh:class ex:PaperCollection ;
-            sh:path ex:publisedAt ] ;
+            sh:path ex:publisedAt ],
+        [ sh:class ex:Paper ;
+            sh:path ex:cites ] ;
     sh:targetClass ex:Paper .
 
 ex:ReviewerShape a sh:NodeShape ;
