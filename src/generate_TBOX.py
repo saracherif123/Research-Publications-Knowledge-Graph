@@ -10,23 +10,30 @@ def create_tbox_graph():
     g.bind("rdfs", RDFS)
 
     # === Classes ===
-    classes = ['Abstract', 'AcademicPublisher', 'Author', 'Conference',
-               'Event', 'IsCorrespondingAuthorOf', 'Journal', 'Keyword', 'Magazine',
-               'Paper', 'PaperCollection', 'Proceeding', 'Reviewer', 'Workshop','Venue','Year']
+    classes = [
+        'Abstract', 'AcademicPublisher', 'Author', 'Conference', 'Event',
+        'IsCorrespondingAuthorOf', 'Journal', 'Keyword', 'Magazine', 'Paper',
+        'PaperCollection', 'Proceeding', 'Reviewer', 'Workshop', 'Venue',
+        'Year', 'Translation', 'Language', 'Chair', 'Officer'
+    ]
     for cls in classes:
         g.add((EX[cls], RDF.type, RDFS.Class))
 
     # === Object Properties ===
     object_props = {
-        "cites": ("Paper", "Paper"),           # A paper can cite another paper
-        "discusses": ("Paper", "Keyword"),      # A paper can discuss a keyword
-        "hasVenue": ("Event", "Venue"),        # An event has a venue
-        "hasYear": ("Event", "Year"),          # An event has a year
-        "includes": ("PaperCollection", "Paper"), # A paper collection includes papers
-        "publisedAt": ("Paper", "PaperCollection"), # A paper is published in a collection
-        "reviews": ("Reviewer", "Paper"),      # A reviewer reviews a paper
-        "summarizedBy": ("Paper", "Abstract"), # A paper is summarized by an abstract
-        "writes": ("Author", "Paper")          # An author writes a paper
+        "cites": ("Paper", "Paper"),                    # A paper can cite another paper
+        "discusses": ("Paper", "Keyword"),              # A paper can discuss a keyword
+        "hasVenue": ("Event", "Venue"),                 # An event has a venue
+        "hasYear": ("Event", "Year"),                   # An event has a year
+        "includes": ("PaperCollection", "Paper"),       # A paper collection includes papers
+        "publisedAt": ("Paper", "PaperCollection"),     # A paper is published in a collection
+        "reviews": ("Reviewer", "Paper"),               # A reviewer reviews a paper
+        "summarizedBy": ("Paper", "Abstract"),          # A paper is summarized by an abstract
+        "writes": ("Author", "Paper"),                  # An author writes a paper
+        "hasTranslation": ("Abstract", "Translation"),  # An abstract has translated versions
+        "hasLanguage": ("Translation", "Language"),     # A translation has a language
+        "assignedChair": ("Review", "Chair"),           # chair assigned to a review
+        "assignedOfficer": ("Review", "Officer")        # officer assigned to a review
     }
     for prop, (domain, range_) in object_props.items():
         g.add((EX[prop], RDF.type, RDF.Property))

@@ -8,6 +8,8 @@ ex:AcademicPublisher a rdfs:Class .
 
 ex:Author a rdfs:Class .
 
+ex:Chair a rdfs:Class .
+
 ex:Conference a rdfs:Class ;
     rdfs:subClassOf ex:PaperCollection .
 
@@ -20,8 +22,12 @@ ex:Journal a rdfs:Class ;
 
 ex:Keyword a rdfs:Class .
 
+ex:Language a rdfs:Class .
+
 ex:Magazine a rdfs:Class ;
     rdfs:subClassOf ex:AcademicPublisher .
+
+ex:Officer a rdfs:Class .
 
 ex:Paper a rdfs:Class .
 
@@ -32,12 +38,22 @@ ex:Proceeding a rdfs:Class ;
 
 ex:Reviewer a rdfs:Class .
 
+ex:Translation a rdfs:Class .
+
 ex:Venue a rdfs:Class .
 
 ex:Workshop a rdfs:Class ;
     rdfs:subClassOf ex:PaperCollection .
 
 ex:Year a rdfs:Class .
+
+ex:assignedChair a rdf:Property ;
+    rdfs:domain ex:Review ;
+    rdfs:range ex:Chair .
+
+ex:assignedOfficer a rdf:Property ;
+    rdfs:domain ex:Review ;
+    rdfs:range ex:Officer .
 
 ex:cites a rdf:Property ;
     rdfs:domain ex:Paper ;
@@ -46,6 +62,14 @@ ex:cites a rdf:Property ;
 ex:discusses a rdf:Property ;
     rdfs:domain ex:Paper ;
     rdfs:range ex:Keyword .
+
+ex:hasLanguage a rdf:Property ;
+    rdfs:domain ex:Translation ;
+    rdfs:range ex:Language .
+
+ex:hasTranslation a rdf:Property ;
+    rdfs:domain ex:Abstract ;
+    rdfs:range ex:Translation .
 
 ex:hasVenue a rdf:Property ;
     rdfs:domain ex:Event ;
