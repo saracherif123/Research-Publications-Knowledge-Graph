@@ -118,15 +118,25 @@ def process_pub(node_type, csv_file, id_col, venue_col, year_col):
     for _, row in df.iterrows():
         vid = str(row[id_col])
         node = uri(f"{node_type}_{vid}")
+        
         g.add((node, RDF.type, EX[node_type]))
         g.add((node, RDF.type, EX.Event))
+        g.add((node, RDF.type, EX.PaperCollection))
+        
+        # Add label - e.g., "Conference 123"
+        label = f"{str(row['Venue'])}"
+        g.add((node, RDFS.label, Literal(label)))
+
         # Venue
         vn = get_venue_node(row[venue_col])
         g.add((node, EX.hasVenue, vn))
+
         # Year
         if pd.notna(row[year_col]):
             yn = get_year_node(int(row[year_col]))
             g.add((node, EX.hasYear, yn))
+
+
 
 process_pub('Conference', 'data/nodes_conference.csv', 'ConferenceID', 'Venue', 'Year')
 process_pub('Workshop',  'data/nodes_workshop.csv',  'WorkshopID',   'Venue', 'Year')

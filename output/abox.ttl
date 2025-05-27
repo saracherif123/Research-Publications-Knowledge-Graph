@@ -12375,7 +12375,9 @@ ex:Abstract_d534fc35fb46d0d1df38838db2107ebb0ec71ff4 a ex:Abstract ;
     rdfs:label "Recently, Siamese trackers have gained widespread attention in visual tracking due to their exceptional performance. However, many trackers still suffer from limitations in challenging scenarios, such as fast motion and scale variation, which hinder the full exploitation of target features. Consequently, the accuracy and efficiency of the trackers are limited. Therefore, this paper proposes an efficient attention network, called EAN, to improve tracking performance. The EAN comprises three primary components, namely a Transformer-s subnetwork, a Transformer-t subnetwork, and a Feature-Fused Attention Module (FFAM). The designed Transformer-s and Transformer-t subnetworks adopt complementary structures and functions to fully integrate and emphasize the relevant feature information, including channel and spatial features. The FFAM is responsible for fusing the multi-level features from both subnetworks, which establishes the global dependencies between the templates and search regions and enhances the discriminative power of the model. To further improve the tracking accuracy, a novel Feature-Aware Attention Module (FAAM) is introduced into the tracking prediction head to enhance the feature representation capability of the model. Finally, we propose an efficient EANTrack tracker based on EAN for robust tracking in complex scenarios, which exhibits significant advantages in challenging attributes. Experimental results on multiple benchmarks indicate that our approach achieves remarkable tracking performance with a real-time running speed of 55.6fps. Note to Practitioners—Siamese trackers have garnered considerable attention in the field of visual tracking due to their impressive performance. However, these trackers often face limitations in challenging scenarios, which impede the complete exploitation of target features. As a result, the accuracy and efficiency of many trackers are compromised. To address these issues, we propose an efficient tracker called EANTrack to enable robust tracking in complex scenarios. Our EANTrack exhibits significant advantages in handling challenging attributes. Please refer to our complete paper for detailed information on the EANTrack tracker and experimental results. Practitioners in the field can benefit from our research by leveraging our findings and methodologies in their work. We encourage further exploration and experimentation to enhance the performance and applicability of visual tracking systems." .
 
 ex:Conference_0 a ex:Conference,
-        ex:Event ;
+        ex:Event,
+        ex:PaperCollection ;
+    rdfs:label "International Conference on Intelligent Tutoring Systems" ;
     ex:hasVenue ex:Venue_International_Conference_on_Intelligent_Tutoring_Systems ;
     ex:hasYear ex:Year_2020,
         ex:Year_2021,
@@ -12512,7 +12514,9 @@ ex:Conference_18 ex:includes ex:Paper_4683f3b5aa7c23b3ac9fbe312ef29a4f44c8bb1b .
 ex:Conference_19 ex:includes ex:Paper_181e892fa1207461e93a953c05e0395223345b10 .
 
 ex:Conference_2 a ex:Conference,
-        ex:Event ;
+        ex:Event,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Conference on Computer Communications" ;
     ex:hasVenue ex:Venue_IEEE_Conference_on_Computer_Communications ;
     ex:hasYear ex:Year_2020,
         ex:Year_2021,
@@ -12529,7 +12533,9 @@ ex:Conference_26 ex:includes ex:Paper_761163778df822d53efe6c3015eb7afeba768b78 .
 ex:Conference_29 ex:includes ex:Paper_761eebdd0c9fda978e316c220c54549978c3f987 .
 
 ex:Conference_3 a ex:Conference,
-        ex:Event ;
+        ex:Event,
+        ex:PaperCollection ;
+    rdfs:label "IEEE International Conference on Bioinformatics and Biomedicine" ;
     ex:hasVenue ex:Venue_IEEE_International_Conference_on_Bioinformatics_and_Biomedicine ;
     ex:hasYear ex:Year_2020,
         ex:Year_2021,
@@ -12552,7 +12558,9 @@ ex:Conference_37 ex:includes ex:Paper_380fdeb36995ede563642f1b77a8859f95d9fc4d .
 ex:Conference_38 ex:includes ex:Paper_7b494e3e4fbc1d2fb3eeabe2ceb4b288d027470f .
 
 ex:Conference_4 a ex:Conference,
-        ex:Event ;
+        ex:Event,
+        ex:PaperCollection ;
+    rdfs:label "Computer Vision and Pattern Recognition" ;
     ex:hasVenue ex:Venue_Computer_Vision_and_Pattern_Recognition ;
     ex:hasYear ex:Year_2020,
         ex:Year_2021,
@@ -12665,565 +12673,753 @@ ex:Conference_98 ex:includes ex:Paper_c05c72e0f180e7c13809138550205578eb084cfb .
 ex:Conference_99 ex:includes ex:Paper_458dd28b79d32a1d7f0287f56f486f4059909329 .
 
 ex:Journal_0 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Interactive Learning Environments" ;
     ex:hasVenue ex:Venue_Interactive_Learning_Environments ;
     ex:hasYear ex:Year_2022 ;
     ex:includes ex:Paper_8509485721393d06595834a98c527a3f54052009 .
 
 ex:Journal_10 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "International Journal of Speech Technology" ;
     ex:hasVenue ex:Venue_International_Journal_of_Speech_Technology ;
     ex:hasYear ex:Year_2021 ;
     ex:includes ex:Paper_bc291d55606ed79f1bab48b35d1ce83b406c17db .
 
 ex:Journal_101 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Smart Learning Environments" ;
     ex:hasVenue ex:Venue_Smart_Learning_Environments ;
     ex:hasYear ex:Year_2024 ;
     ex:includes ex:Paper_ac6877ada2af50d03c23f9c9d15d5e0a06d46d6d .
 
 ex:Journal_102 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Visualization and Computer Graphics" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Visualization_and_Computer_Graphics ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_25deb9cc0da78e2cf307f2823cfe8b280b154052 .
 
 ex:Journal_103 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "PLoS ONE" ;
     ex:hasVenue ex:Venue_PLoS_ONE ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_9a2d5eefd7ca7939a643294a87a1a324bd03ae0e .
 
 ex:Journal_104 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE transactions on fuzzy systems" ;
     ex:hasVenue ex:Venue_IEEE_transactions_on_fuzzy_systems ;
     ex:hasYear ex:Year_2022 ;
     ex:includes ex:Paper_786d99ce9386d77f22a59197a53e9a8e81d09b1a .
 
 ex:Journal_105 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Expert systems with applications" ;
     ex:hasVenue ex:Venue_Expert_systems_with_applications ;
     ex:hasYear ex:Year_2015 ;
     ex:includes ex:Paper_6144728018865691618dd340f3bad17dfc06d720 .
 
 ex:Journal_106 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Cognitive and Developmental Systems" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Cognitive_and_Developmental_Systems ;
     ex:hasYear ex:Year_2021 ;
     ex:includes ex:Paper_12a494043e159e0c6b47b8c72c16b3e3523e9272 .
 
 ex:Journal_107 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Frontiers in Robotics and AI" ;
     ex:hasVenue ex:Venue_Frontiers_in_Robotics_and_AI ;
     ex:hasYear ex:Year_2019 ;
     ex:includes ex:Paper_9a4da56e61b49a4ed905e4a9ad7d9d8163c4c485 .
 
 ex:Journal_108 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "ACM Transactions on Modeling and Computer Simulation" ;
     ex:hasVenue ex:Venue_ACM_Transactions_on_Modeling_and_Computer_Simulation ;
     ex:hasYear ex:Year_2024 ;
     ex:includes ex:Paper_53eba4ee8f79ce86ab0b06303b23ef1a69fe67d4 .
 
 ex:Journal_109 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Cluster Computing" ;
     ex:hasVenue ex:Venue_Cluster_Computing ;
     ex:hasYear ex:Year_2014 ;
     ex:includes ex:Paper_1b7d4841b6bd050812d78af9cab9f556d19b8231 .
 
 ex:Journal_110 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Asia-pacific Journal of Convergent Research Interchange" ;
     ex:hasVenue ex:Venue_Asia-pacific_Journal_of_Convergent_Research_Interchange ;
     ex:hasYear ex:Year_2020 ;
     ex:includes ex:Paper_00970f4d0e3e822f4d3d5785f4a67c360081ac3a .
 
 ex:Journal_111 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "International Journal of Intelligent Systems Technologies and Applications" ;
     ex:hasVenue ex:Venue_International_Journal_of_Intelligent_Systems_Technologies_and_Applications ;
     ex:hasYear ex:Year_2018 ;
     ex:includes ex:Paper_b43cf5e271d2244a0a9877e901ce9d0c7c42c1db .
 
 ex:Journal_113 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Information Sciences" ;
     ex:hasVenue ex:Venue_Information_Sciences ;
     ex:hasYear ex:Year_2018 ;
     ex:includes ex:Paper_cdbdfbe7aaab94793857356e88e78c84fd48a166 .
 
 ex:Journal_114 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Nanobioscience" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Nanobioscience ;
     ex:hasYear ex:Year_2003 ;
     ex:includes ex:Paper_67af5676c6069143eab98330aa6d28ceec359bb1 .
 
 ex:Journal_115 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "International journal of circuit theory and applications" ;
     ex:hasVenue ex:Venue_International_journal_of_circuit_theory_and_applications ;
     ex:hasYear ex:Year_1998 ;
     ex:includes ex:Paper_7bb5e4db37dabc756a94c7f264700dad032cd628 .
 
 ex:Journal_116 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of Imaging" ;
     ex:hasVenue ex:Venue_Journal_of_Imaging ;
     ex:hasYear ex:Year_2020 ;
     ex:includes ex:Paper_45bfb9de95046602b6c7512e827e0a6e206d6abb .
 
 ex:Journal_117 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Indonesian Journal of Electrical Engineering and Computer Science" ;
     ex:hasVenue ex:Venue_Indonesian_Journal_of_Electrical_Engineering_and_Computer_Science ;
     ex:hasYear ex:Year_2019 ;
     ex:includes ex:Paper_51ef0f6b6080ae713c196408888f1287fd1a1950 .
 
 ex:Journal_118 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of Information and Optimization Sciences" ;
     ex:hasVenue ex:Venue_Journal_of_Information_and_Optimization_Sciences ;
     ex:hasYear ex:Year_2019 ;
     ex:includes ex:Paper_1cea4d24bfeffc73a5d5069d7349edc0a84c6e2a .
 
 ex:Journal_119 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of Neuroscience Methods" ;
     ex:hasVenue ex:Venue_Journal_of_Neuroscience_Methods ;
     ex:hasYear ex:Year_2021 ;
     ex:includes ex:Paper_4560aaf6aa9d59dddbc4939c6573b1385761f567 .
 
 ex:Journal_12 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Pattern Recognition and Image Analysis" ;
     ex:hasVenue ex:Venue_Pattern_Recognition_and_Image_Analysis ;
     ex:hasYear ex:Year_2018 ;
     ex:includes ex:Paper_56e803a517d8cd7fd9f1474ad54dc926533ec38f .
 
 ex:Journal_120 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of Biomedical Research" ;
     ex:hasVenue ex:Venue_Journal_of_Biomedical_Research ;
     ex:hasYear ex:Year_2019 ;
     ex:includes ex:Paper_23396e5737f0da128c9a011d28ac88735db1357e .
 
 ex:Journal_121 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of the Institution of Electronics and Telecommunication Engineers" ;
     ex:hasVenue ex:Venue_Journal_of_the_Institution_of_Electronics_and_Telecommunication_Engineers ;
     ex:hasYear ex:Year_2019 ;
     ex:includes ex:Paper_186ed3abeb8e97f529bfcad2e7502a395936d364 .
 
 ex:Journal_125 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Distributed and parallel databases" ;
     ex:hasVenue ex:Venue_Distributed_and_parallel_databases ;
     ex:hasYear ex:Year_2021 ;
     ex:includes ex:Paper_078241442033645965d810576d7f93f9c3a15b54 .
 
 ex:Journal_126 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Services Computing" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Services_Computing ;
     ex:hasYear ex:Year_2018 ;
     ex:includes ex:Paper_569c9dcd9c9b7d0797349396589a65fa1bb4c3c4 .
 
 ex:Journal_127 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Communications Surveys and Tutorials" ;
     ex:hasVenue ex:Venue_IEEE_Communications_Surveys_and_Tutorials ;
     ex:hasYear ex:Year_2018 ;
     ex:includes ex:Paper_0036975a5e51251e3ccde743ecc3aa18a9ae7623 .
 
 ex:Journal_128 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "ACM Journal on Emerging Technologies in Computing Systems" ;
     ex:hasVenue ex:Venue_ACM_Journal_on_Emerging_Technologies_in_Computing_Systems ;
     ex:hasYear ex:Year_2022 ;
     ex:includes ex:Paper_348e380a48afcc55e72438bfac2747ec4c8cbfd4 .
 
 ex:Journal_14 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Informatics" ;
     ex:hasVenue ex:Venue_Informatics ;
     ex:hasYear ex:Year_2017 ;
     ex:includes ex:Paper_87c198f86bc6eaa9439d309904081ac294382abb .
 
 ex:Journal_15 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Journal on Selected Areas in Communications" ;
     ex:hasVenue ex:Venue_IEEE_Journal_on_Selected_Areas_in_Communications ;
     ex:hasYear ex:Year_2022 ;
     ex:includes ex:Paper_914968d3df158691e8eae81da1e4b8086ddac91d .
 
 ex:Journal_16 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of Systems and Information Technology" ;
     ex:hasVenue ex:Venue_Journal_of_Systems_and_Information_Technology ;
     ex:hasYear ex:Year_2024 ;
     ex:includes ex:Paper_caf27f4542e8dccdaaa22a27a7b95b5ef0c6d2b8 .
 
 ex:Journal_18 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Cybernetics and systems" ;
     ex:hasVenue ex:Venue_Cybernetics_and_systems ;
     ex:hasYear ex:Year_2022 ;
     ex:includes ex:Paper_88b10094e3ba27033dff0f96a412329220cb1f9a .
 
 ex:Journal_19 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Cognitive Computation" ;
     ex:hasVenue ex:Venue_Cognitive_Computation ;
     ex:hasYear ex:Year_2018 ;
     ex:includes ex:Paper_22301fafc0d082fe05d0c6d85693abf34527320c .
 
 ex:Journal_21 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "SIAM Journal on Applied Mathematics" ;
     ex:hasVenue ex:Venue_SIAM_Journal_on_Applied_Mathematics ;
     ex:hasYear ex:Year_2017 ;
     ex:includes ex:Paper_f8413d402f4aa45c2f517ec9f03c7264a49df2d0 .
 
 ex:Journal_22 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Research on computing science" ;
     ex:hasVenue ex:Venue_Research_on_computing_science ;
     ex:hasYear ex:Year_2015 ;
     ex:includes ex:Paper_30c7e10fec9464c9745e1756acd1ca485509524b .
 
 ex:Journal_24 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Pattern Recognition" ;
     ex:hasVenue ex:Venue_Pattern_Recognition ;
     ex:hasYear ex:Year_2024 ;
     ex:includes ex:Paper_a5ff51640fcf48cbd8f73b8e3b236adae66ac2e2 .
 
 ex:Journal_25 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of King Saud University: Computer and Information Sciences" ;
     ex:hasVenue <http://example.org/schema#Venue_Journal_of_King_Saud_University:_Computer_and_Information_Sciences> ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_4c8da4fa2c8102a7b7dad024f85c54b49ba0636b .
 
 ex:Journal_29 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Annals of Software Engineering" ;
     ex:hasVenue ex:Venue_Annals_of_Software_Engineering ;
     ex:hasYear ex:Year_1999 ;
     ex:includes ex:Paper_26baef4b4409858dd43f89db2394ea47784f845a .
 
 ex:Journal_30 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "TEM Journal" ;
     ex:hasVenue ex:Venue_TEM_Journal ;
     ex:hasYear ex:Year_2020 ;
     ex:includes ex:Paper_f6464f77281201e5fb811eaacc61d1497524fc8b .
 
 ex:Journal_31 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Frontiers of Computer Science in China" ;
     ex:hasVenue ex:Venue_Frontiers_of_Computer_Science_in_China ;
     ex:hasYear ex:Year_2007 ;
     ex:includes ex:Paper_2bad667e45c76b6edf8e7fe54f6cdd267189c743 .
 
 ex:Journal_34 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of Systems and Software" ;
     ex:hasVenue ex:Venue_Journal_of_Systems_and_Software ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_445c71912a718b6add8b79d01ee02aaadb51a5cb .
 
 ex:Journal_35 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IET Software" ;
     ex:hasVenue ex:Venue_IET_Software ;
     ex:hasYear ex:Year_2020 ;
     ex:includes ex:Paper_8f4ab8fd013ec000ef4c092ad80673543ace5aec .
 
 ex:Journal_36 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "The Arabian journal for science and engineering" ;
     ex:hasVenue ex:Venue_The_Arabian_journal_for_science_and_engineering ;
     ex:hasYear ex:Year_2020 ;
     ex:includes ex:Paper_870f2c241e59ac83d84c5bff8a4c56fe39e90357 .
 
 ex:Journal_38 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "International journal of information technology" ;
     ex:hasVenue ex:Venue_International_journal_of_information_technology ;
     ex:hasYear ex:Year_2019 ;
     ex:includes ex:Paper_1968d81206a3345bc41566213fe63e15ac6ff777 .
 
 ex:Journal_39 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "ACM Transactions on Recommender Systems" ;
     ex:hasVenue ex:Venue_ACM_Transactions_on_Recommender_Systems ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_186aeaf08e545a62fd975ac56068d9b5f2043ad9 .
 
 ex:Journal_41 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Electronic library" ;
     ex:hasVenue ex:Venue_Electronic_library ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_472a2bcc097f367686ac2edffff3d720babfea36 .
 
 ex:Journal_42 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Molecular Neurodegeneration" ;
     ex:hasVenue ex:Venue_Molecular_Neurodegeneration ;
     ex:hasYear ex:Year_2022 ;
     ex:includes ex:Paper_ffa6358e22a4a64e405bc265ffe7af433c159891 .
 
 ex:Journal_43 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Reviews in the Neurosciences" ;
     ex:hasVenue ex:Venue_Reviews_in_the_Neurosciences ;
     ex:hasYear ex:Year_2019 ;
     ex:includes ex:Paper_34b6eaccd2f33fc7fa47194b80717c90ca9c39d6 .
 
 ex:Journal_44 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Biological Research for Nursing" ;
     ex:hasVenue ex:Venue_Biological_Research_for_Nursing ;
     ex:hasYear ex:Year_2018 ;
     ex:includes ex:Paper_991ccd62c8ad721b6d64dbc3be215f8cda060dc0 .
 
 ex:Journal_45 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of Alzheimer's Disease" ;
     ex:hasVenue <http://example.org/schema#Venue_Journal_of_Alzheimer's_Disease> ;
     ex:hasYear ex:Year_2017 ;
     ex:includes ex:Paper_6e58d41d7753766304c26b1f4f57801996fcfc7f .
 
 ex:Journal_46 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Alzheimer's & Dementia" ;
     ex:hasVenue <http://example.org/schema#Venue_Alzheimer's_&_Dementia> ;
     ex:hasYear ex:Year_2017 ;
     ex:includes ex:Paper_3ef1aa70d22148011d5fd8d05a64babd9f61c895 .
 
 ex:Journal_47 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "The VLDB journal" ;
     ex:hasVenue ex:Venue_The_VLDB_journal ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_fd32aa0d204a9b5746087599a8a83277c1f88cb6 .
 
 ex:Journal_48 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Proceedings of the VLDB Endowment" ;
     ex:hasVenue ex:Venue_Proceedings_of_the_VLDB_Endowment ;
     ex:hasYear ex:Year_2022 ;
     ex:includes ex:Paper_cbabc9267d0d0bb9ca81006624b2cf3bcc2496fa .
 
 ex:Journal_49 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Computers & security" ;
     ex:hasVenue <http://example.org/schema#Venue_Computers_&_security> ;
     ex:hasYear ex:Year_2024 ;
     ex:includes ex:Paper_309632fe3feee8f85b2ca98772bce31b2a3ede06 .
 
 ex:Journal_5 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Education and Information Technologies : Official Journal of the IFIP technical committee on Education" ;
     ex:hasVenue <http://example.org/schema#Venue_Education_and_Information_Technologies_:_Official_Journal_of_the_IFIP_technical_committee_on_Education> ;
     ex:hasYear ex:Year_2022 ;
     ex:includes ex:Paper_82f4f334e87737921035e7d172a895ed41a03fdf .
 
 ex:Journal_51 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Sustainability" ;
     ex:hasVenue ex:Venue_Sustainability ;
     ex:hasYear ex:Year_2021 ;
     ex:includes ex:Paper_31a2887c35ca62a31349f45c4856e7e0a200759f .
 
 ex:Journal_52 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Computational Intelligence and Neuroscience" ;
     ex:hasVenue ex:Venue_Computational_Intelligence_and_Neuroscience ;
     ex:hasYear ex:Year_2020 ;
     ex:includes ex:Paper_f6c9b52a78ab2cd4788d49d2d7a61627bec2b3c3 .
 
 ex:Journal_53 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Proceedings of the IEEE" ;
     ex:hasVenue ex:Venue_Proceedings_of_the_IEEE ;
     ex:hasYear ex:Year_2024 ;
     ex:includes ex:Paper_36a1d00f5a77b47ba7ebb5c51578f1dc3f0f7256 .
 
 ex:Journal_55 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Open Journal of the Communications Society" ;
     ex:hasVenue ex:Venue_IEEE_Open_Journal_of_the_Communications_Society ;
     ex:hasYear ex:Year_2024 ;
     ex:includes ex:Paper_ab4249e9f758ede75ee22ccf28d3717c418072e6 .
 
 ex:Journal_57 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Industrial Informatics" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Industrial_Informatics ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_7472ff8b09063a2e2d5aa43d8305ed7060b1eeb5 .
 
 ex:Journal_60 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of Scheduling" ;
     ex:hasVenue ex:Venue_Journal_of_Scheduling ;
     ex:hasYear ex:Year_2020 ;
     ex:includes ex:Paper_553f14bca493edf3de05af576bd68044ee79c20f .
 
 ex:Journal_61 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "International Journal of Production Research" ;
     ex:hasVenue ex:Venue_International_Journal_of_Production_Research ;
     ex:hasYear ex:Year_2018 ;
     ex:includes ex:Paper_2808f416ce680be15e36576c65acd50622c19ff0 .
 
 ex:Journal_63 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Wireless personal communications" ;
     ex:hasVenue ex:Venue_Wireless_personal_communications ;
     ex:hasYear ex:Year_2021 ;
     ex:includes ex:Paper_9badb1277c4ad05546629e7e540e0fb9b9929576 .
 
 ex:Journal_64 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of engineering design" ;
     ex:hasVenue ex:Venue_Journal_of_engineering_design ;
     ex:hasYear ex:Year_2020 ;
     ex:includes ex:Paper_2e4dea5d2d4dc047e77a0b7f809259e6a20df556 .
 
 ex:Journal_65 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Transactions of the Association for Computational Linguistics" ;
     ex:hasVenue ex:Venue_Transactions_of_the_Association_for_Computational_Linguistics ;
     ex:hasYear ex:Year_2022 ;
     ex:includes ex:Paper_564992c12097a87c279a90a1459eb72bbd007090 .
 
 ex:Journal_66 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of Artificial Intelligence Research" ;
     ex:hasVenue ex:Venue_Journal_of_Artificial_Intelligence_Research ;
     ex:hasYear ex:Year_2021 ;
     ex:includes ex:Paper_d29036946152bddf950fec7a08c2828a8a8f902e .
 
 ex:Journal_67 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Vehicular Technology" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Vehicular_Technology ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_54662da5de373d5bfc2c4f6144303d53c17f7006 .
 
 ex:Journal_68 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Applied Soft Computing" ;
     ex:hasVenue ex:Venue_Applied_Soft_Computing ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_d0ec065f7f3a7239612de00859b75efabd3c9f7f .
 
 ex:Journal_69 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Systems Journal" ;
     ex:hasVenue ex:Venue_IEEE_Systems_Journal ;
     ex:hasYear ex:Year_2020 ;
     ex:includes ex:Paper_4f85463b404876bc2d21a8f108817d25ca6288af .
 
 ex:Journal_7 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "The International Journal of Management Education" ;
     ex:hasVenue ex:Venue_The_International_Journal_of_Management_Education ;
     ex:hasYear ex:Year_2021 ;
     ex:includes ex:Paper_48748deac5da9d0ab0d09bffe254ada4b151bbb0 .
 
 ex:Journal_70 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Network" ;
     ex:hasVenue ex:Venue_IEEE_Network ;
     ex:hasYear ex:Year_2020 ;
     ex:includes ex:Paper_f794f0cc1b55ea8cf26bf0372bc7ba6740ca8e83 .
 
 ex:Journal_73 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Applied Artificial Intelligence" ;
     ex:hasVenue ex:Venue_Applied_Artificial_Intelligence ;
     ex:hasYear ex:Year_2022 ;
     ex:includes ex:Paper_8b9411fc2a95899be9a4a543736f6d4348a64759 .
 
 ex:Journal_74 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE/ACM Transactions on Computational Biology & Bioinformatics" ;
     ex:hasVenue <http://example.org/schema#Venue_IEEE/ACM_Transactions_on_Computational_Biology_&_Bioinformatics> ;
     ex:hasYear ex:Year_2021 ;
     ex:includes ex:Paper_9a1ec46c7afe7e06b5d09d68040269a1cb2f8d50 .
 
 ex:Journal_75 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Knowledge-Based Systems" ;
     ex:hasVenue ex:Venue_Knowledge-Based_Systems ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_40bd70d2d176d2112259b7350cccfc058e6b7afa .
 
 ex:Journal_76 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Neurocomputing" ;
     ex:hasVenue ex:Venue_Neurocomputing ;
     ex:hasYear ex:Year_2020 ;
     ex:includes ex:Paper_e046eaa83e43c5663332eac4f9a6797931e8c6cd .
 
 ex:Journal_78 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Multimedia tools and applications" ;
     ex:hasVenue ex:Venue_Multimedia_tools_and_applications ;
     ex:hasYear ex:Year_2021 ;
     ex:includes ex:Paper_cef530e1a4b270262e1d17327711d4c59a7d99a5 .
 
 ex:Journal_79 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Renewable Energy" ;
     ex:hasVenue ex:Venue_Renewable_Energy ;
     ex:hasYear ex:Year_2018 ;
     ex:includes ex:Paper_29330205c83a1752da4fbbc36ba4d34cef2d55bf .
 
 ex:Journal_80 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Constraints" ;
     ex:hasVenue ex:Venue_Constraints ;
     ex:hasYear ex:Year_2019 ;
     ex:includes ex:Paper_261e27ffa7678bc4fc043486594a0e72b25e91fa .
 
 ex:Journal_81 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Computers and Electronics in Agriculture" ;
     ex:hasVenue ex:Venue_Computers_and_Electronics_in_Agriculture ;
     ex:hasYear ex:Year_2019 ;
     ex:includes ex:Paper_eaa308e5e0a620ea5f9df56dfd522ee517ecb529 .
 
 ex:Journal_82 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Proceedings of the Institution of mechanical engineers. Part D, journal of automobile engineering" ;
     ex:hasVenue <http://example.org/schema#Venue_Proceedings_of_the_Institution_of_mechanical_engineers._Part_D,_journal_of_automobile_engineering> ;
     ex:hasYear ex:Year_2021 ;
     ex:includes ex:Paper_3bf289262439bc9e024d6d590d26cc517534b517 .
 
 ex:Journal_84 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Applied and Computational Engineering" ;
     ex:hasVenue ex:Venue_Applied_and_Computational_Engineering ;
     ex:hasYear ex:Year_2024 ;
     ex:includes ex:Paper_6ca961736ea1fa1fb92a895ee9890a49473f921b .
 
 ex:Journal_85 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE/ACM Transactions on Networking" ;
     ex:hasVenue <http://example.org/schema#Venue_IEEE/ACM_Transactions_on_Networking> ;
     ex:hasYear ex:Year_2022 ;
     ex:includes ex:Paper_0cd5892b6b67255a639a14c646accbf60ff33db9 .
 
 ex:Journal_86 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "ACM Transactions on Computer Systems" ;
     ex:hasVenue ex:Venue_ACM_Transactions_on_Computer_Systems ;
     ex:hasYear ex:Year_2021 ;
     ex:includes ex:Paper_b50ebcbbec47e6e3c8c98e5990c7dcafc7508409 .
 
 ex:Journal_87 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Computer Science and Information Systems" ;
     ex:hasVenue ex:Venue_Computer_Science_and_Information_Systems ;
     ex:hasYear ex:Year_2015 ;
     ex:includes ex:Paper_ac6ec6a266df0d8245959319d55caa1c133adf7e .
 
 ex:Journal_89 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of Signal Processing Systems" ;
     ex:hasVenue ex:Venue_Journal_of_Signal_Processing_Systems ;
     ex:hasYear ex:Year_2008 ;
     ex:includes ex:Paper_d078dd095a36e2e46185814a8ef90285ebce6470 .
 
 ex:Journal_9 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Archives of Control Sciences" ;
     ex:hasVenue ex:Venue_Archives_of_Control_Sciences ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_a766e4ae21d21e3ae16c40c9c6c7c9b396c8f769 .
 
 ex:Journal_90 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Evolutionary Computation" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Evolutionary_Computation ;
     ex:hasYear ex:Year_2007 ;
     ex:includes ex:Paper_350e394d422ac4cd5fbe5d03bf25d44e41c47782 .
 
 ex:Journal_91 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Knowledge and Data Engineering" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Knowledge_and_Data_Engineering ;
     ex:hasYear ex:Year_2005 ;
     ex:includes ex:Paper_5fffbd9271f4234652f375df111a3e97303fc52c .
 
 ex:Journal_92 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Evolutionary Computation" ;
     ex:hasVenue ex:Venue_Evolutionary_Computation ;
     ex:hasYear ex:Year_1996 ;
     ex:includes ex:Paper_33f85e5fc64f60be07a457271d869d30783dedd4 .
 
 ex:Journal_93 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Parallel and Distributed Systems" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Parallel_and_Distributed_Systems ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_e1d0153a3f705c8b25be6382a546654a00e08bdb .
 
 ex:Journal_94 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE/ASME transactions on mechatronics" ;
     ex:hasVenue <http://example.org/schema#Venue_IEEE/ASME_transactions_on_mechatronics> ;
     ex:hasYear ex:Year_2022 ;
     ex:includes ex:Paper_dccd0b8798304773062352fbc051c4f072da3cd7 .
 
 ex:Journal_95 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of Big Data" ;
     ex:hasVenue ex:Venue_Journal_of_Big_Data ;
     ex:hasYear ex:Year_2020 ;
     ex:includes ex:Paper_51e09da838e9a524076118948d99180f1600ceba .
 
 ex:Journal_96 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Materials" ;
     ex:hasVenue ex:Venue_Materials ;
     ex:hasYear ex:Year_2022 ;
     ex:includes ex:Paper_bf20c8c74dc8fcdd0177d8168890f0a514093142 .
 
 ex:Journal_97 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of Computing and Information Science in Engineering" ;
     ex:hasVenue ex:Venue_Journal_of_Computing_and_Information_Science_in_Engineering ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_569e323c84bcc01fc6562ea2c7084c7a2a00e703 .
 
 ex:Journal_99 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Synthesis Lectures on Human-Centered Informatics" ;
     ex:hasVenue ex:Venue_Synthesis_Lectures_on_Human-Centered_Informatics ;
     ex:hasYear ex:Year_2015 ;
     ex:includes ex:Paper_02a83a755a5e4c5dbb445b132a9c991deea0245c .
@@ -13666,7 +13862,9 @@ ex:Venue_bioRxiv a ex:Venue ;
     rdfs:label "bioRxiv" .
 
 ex:Workshop_0 a ex:Event,
+        ex:PaperCollection,
         ex:Workshop ;
+    rdfs:label "International Workshop on Languages and Compilers for Parallel Computing" ;
     ex:hasVenue ex:Venue_International_Workshop_on_Languages_and_Compilers_for_Parallel_Computing ;
     ex:hasYear ex:Year_2020,
         ex:Year_2021,
@@ -13675,7 +13873,9 @@ ex:Workshop_0 a ex:Event,
     ex:includes ex:Paper_305826910778ccbb0c39d830e90913a1fcef6c57 .
 
 ex:Workshop_1 a ex:Event,
+        ex:PaperCollection,
         ex:Workshop ;
+    rdfs:label "International Workshop on Software Correctness for HPC Applications" ;
     ex:hasVenue ex:Venue_International_Workshop_on_Software_Correctness_for_HPC_Applications ;
     ex:hasYear ex:Year_2020,
         ex:Year_2021,
@@ -13684,7 +13884,9 @@ ex:Workshop_1 a ex:Event,
     ex:includes ex:Paper_d40a3d4b53c613fbd487c2d8fc02b59ae7038035 .
 
 ex:Workshop_2 a ex:Event,
+        ex:PaperCollection,
         ex:Workshop ;
+    rdfs:label "Conference on Computer Communications Workshops" ;
     ex:hasVenue ex:Venue_Conference_on_Computer_Communications_Workshops ;
     ex:hasYear ex:Year_2020,
         ex:Year_2021,
@@ -13693,7 +13895,9 @@ ex:Workshop_2 a ex:Event,
     ex:includes ex:Paper_00242a60e127c5d66f23d039428caaed57a48cd2 .
 
 ex:Workshop_3 a ex:Event,
+        ex:PaperCollection,
         ex:Workshop ;
+    rdfs:label "International Workshop on the Design of Reliable Communication Networks" ;
     ex:hasVenue ex:Venue_International_Workshop_on_the_Design_of_Reliable_Communication_Networks ;
     ex:hasYear ex:Year_2020,
         ex:Year_2021,
@@ -13747,7 +13951,9 @@ ex:Conference_39 ex:includes ex:Paper_0014a057ebdeca672b1cdee8104cca4dc928ef3e,
         ex:Paper_ae29578c017e6ee5a6f3d829e8929168b1844126 .
 
 ex:Conference_5 a ex:Conference,
-        ex:Event ;
+        ex:Event,
+        ex:PaperCollection ;
+    rdfs:label "Frontiers in Education Conference" ;
     ex:hasVenue ex:Venue_Frontiers_in_Education_Conference ;
     ex:hasYear ex:Year_2020,
         ex:Year_2021,
@@ -13763,7 +13969,9 @@ ex:Conference_59 ex:includes ex:Paper_000d0f73efd55bfaf20386ceefbdd567bb09524c,
         ex:Paper_9b48f505f41e22b37201a841a15ba69b6e78cadb .
 
 ex:Conference_6 a ex:Conference,
-        ex:Event ;
+        ex:Event,
+        ex:PaperCollection ;
+    rdfs:label "International Conference on Human Factors in Computing Systems" ;
     ex:hasVenue ex:Venue_International_Conference_on_Human_Factors_in_Computing_Systems ;
     ex:hasYear ex:Year_2020,
         ex:Year_2021,
@@ -13791,7 +13999,9 @@ ex:Conference_95 ex:includes ex:Paper_0015948be940cc9d976ef3874be9cad30b4710be,
         ex:Paper_656b089967c544d32d0c0e6afdde2671aad3b04e .
 
 ex:Journal_1 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Sensors Journal" ;
     ex:hasVenue ex:Venue_IEEE_Sensors_Journal ;
     ex:hasYear ex:Year_2017,
         ex:Year_2021 ;
@@ -13799,7 +14009,9 @@ ex:Journal_1 a ex:Event,
         ex:Paper_a7446c94ef2515f744c1bb04e8f51f0f141a1993 .
 
 ex:Journal_100 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Computer Applications in Engineering Education" ;
     ex:hasVenue ex:Venue_Computer_Applications_in_Engineering_Education ;
     ex:hasYear ex:Year_2017,
         ex:Year_2023 ;
@@ -13807,7 +14019,9 @@ ex:Journal_100 a ex:Event,
         ex:Paper_a7690966fff0f8961e85b911cdd2ca1ebcae4869 .
 
 ex:Journal_11 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Pattern Analysis and Applications" ;
     ex:hasVenue ex:Venue_Pattern_Analysis_and_Applications ;
     ex:hasYear ex:Year_2017,
         ex:Year_2019 ;
@@ -13815,7 +14029,9 @@ ex:Journal_11 a ex:Event,
         ex:Paper_8daca718703f71dc1772d911b1cabdbee3a86f7d .
 
 ex:Journal_122 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Optimization Letters" ;
     ex:hasVenue ex:Venue_Optimization_Letters ;
     ex:hasYear ex:Year_2020,
         ex:Year_2022 ;
@@ -13823,7 +14039,9 @@ ex:Journal_122 a ex:Event,
         ex:Paper_59ad2aecfde8512480b5d7340a368dd834c64e0f .
 
 ex:Journal_123 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of the Operations Research Society of China" ;
     ex:hasVenue ex:Venue_Journal_of_the_Operations_Research_Society_of_China ;
     ex:hasYear ex:Year_2018,
         ex:Year_2021 ;
@@ -13831,7 +14049,9 @@ ex:Journal_123 a ex:Event,
         ex:Paper_d8dcfb5718eaf1d9931998f4e2bb04c0ff8ca86d .
 
 ex:Journal_13 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Data & Knowledge Engineering" ;
     ex:hasVenue <http://example.org/schema#Venue_Data_&_Knowledge_Engineering> ;
     ex:hasYear ex:Year_1998,
         ex:Year_2018 ;
@@ -13839,7 +14059,9 @@ ex:Journal_13 a ex:Event,
         ex:Paper_d77b929e29876c369effceb4ae6ec105a83e7a40 .
 
 ex:Journal_2 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Learning Technologies" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Learning_Technologies ;
     ex:hasYear ex:Year_2013,
         ex:Year_2019 ;
@@ -13847,7 +14069,9 @@ ex:Journal_2 a ex:Event,
         ex:Paper_dc106710715e3b724e393e3562cbb8f2e5865161 .
 
 ex:Journal_20 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Artificial Intelligence Review" ;
     ex:hasVenue ex:Venue_Artificial_Intelligence_Review ;
     ex:hasYear ex:Year_2018,
         ex:Year_2022 ;
@@ -13855,7 +14079,9 @@ ex:Journal_20 a ex:Event,
         ex:Paper_c995f1f102e886192bdd6d29ac567f1c68cb03ad .
 
 ex:Journal_23 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Computers & electrical engineering" ;
     ex:hasVenue <http://example.org/schema#Venue_Computers_&_electrical_engineering> ;
     ex:hasYear ex:Year_2013,
         ex:Year_2023 ;
@@ -13863,7 +14089,9 @@ ex:Journal_23 a ex:Event,
         ex:Paper_8bc2f055c6e0a54f7a1915b96b4e8bf2bf89a10f .
 
 ex:Journal_32 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Pattern Analysis and Machine Intelligence" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Pattern_Analysis_and_Machine_Intelligence ;
     ex:hasYear ex:Year_2004,
         ex:Year_2023 ;
@@ -13871,7 +14099,9 @@ ex:Journal_32 a ex:Event,
         ex:Paper_a4dacead25704c5dad8828e2c9cd5bf5d85deccb .
 
 ex:Journal_33 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE transactions on magnetics" ;
     ex:hasVenue ex:Venue_IEEE_transactions_on_magnetics ;
     ex:hasYear ex:Year_2015,
         ex:Year_2016 ;
@@ -13879,7 +14109,9 @@ ex:Journal_33 a ex:Event,
         ex:Paper_ce150f1082cefcdb82845fefef07fb01321d33c7 .
 
 ex:Journal_40 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Soft Computing - A Fusion of Foundations, Methodologies and Applications" ;
     ex:hasVenue <http://example.org/schema#Venue_Soft_Computing_-_A_Fusion_of_Foundations,_Methodologies_and_Applications> ;
     ex:hasYear ex:Year_2023,
         ex:Year_2024 ;
@@ -13887,21 +14119,27 @@ ex:Journal_40 a ex:Event,
         ex:Paper_f250ef0a7e3bdc60888dabea5ee31ec0e1e59662 .
 
 ex:Journal_54 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Mobile Computing" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Mobile_Computing ;
     ex:hasYear ex:Year_2024 ;
     ex:includes ex:Paper_6aa08ece7113d0bbf96644e3a61f5be416f4358f,
         ex:Paper_e2324ea23edf95daadc47bcb925c7ac774362445 .
 
 ex:Journal_56 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Electronics" ;
     ex:hasVenue ex:Venue_Electronics ;
     ex:hasYear ex:Year_2021 ;
     ex:includes ex:Paper_377d44f890140e0dcd36fa32290b3814d666f2b6,
         ex:Paper_474bc7708af82585aefdb9c402acb5cc1d1e4c5c .
 
 ex:Journal_58 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of Computer Science" ;
     ex:hasVenue ex:Venue_Journal_of_Computer_Science ;
     ex:hasYear ex:Year_2013,
         ex:Year_2022 ;
@@ -13909,7 +14147,9 @@ ex:Journal_58 a ex:Event,
         ex:Paper_9aaa1213b9c7f531b8c6e8ed1ce7e07b9b33d012 .
 
 ex:Journal_6 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Affective Computing" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Affective_Computing ;
     ex:hasYear ex:Year_2021,
         ex:Year_2022 ;
@@ -13917,7 +14157,9 @@ ex:Journal_6 a ex:Event,
         ex:Paper_a2592d944a85df0ef87726cf2cabeb022a4aa1fb .
 
 ex:Journal_62 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of Intelligent Manufacturing" ;
     ex:hasVenue ex:Venue_Journal_of_Intelligent_Manufacturing ;
     ex:hasYear ex:Year_2017,
         ex:Year_2023 ;
@@ -13925,14 +14167,18 @@ ex:Journal_62 a ex:Event,
         ex:Paper_cd6402234500f37286e52811dbdbfb87b557a437 .
 
 ex:Journal_71 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Network Science and Engineering" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Network_Science_and_Engineering ;
     ex:hasYear ex:Year_2020 ;
     ex:includes ex:Paper_48615c3cba178c4193d5106b59205861217fb52f,
         ex:Paper_55f0404b6e67405f2fa0ef7ba3550f4fa86c5631 .
 
 ex:Journal_72 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Scientific Reports" ;
     ex:hasVenue ex:Venue_Scientific_Reports ;
     ex:hasYear ex:Year_2022,
         ex:Year_2024 ;
@@ -13940,7 +14186,9 @@ ex:Journal_72 a ex:Event,
         ex:Paper_dde42bddcc0c7fe402a1a537a97ff70b2a363df7 .
 
 ex:Journal_8 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IET electric power applications" ;
     ex:hasVenue ex:Venue_IET_electric_power_applications ;
     ex:hasYear ex:Year_2019,
         ex:Year_2020 ;
@@ -13948,7 +14196,9 @@ ex:Journal_8 a ex:Event,
         ex:Paper_8920b3deb590c3082a8372cabe68e6ac67922708 .
 
 ex:Journal_83 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "International Journal of Computer Vision" ;
     ex:hasVenue ex:Venue_International_Journal_of_Computer_Vision ;
     ex:hasYear ex:Year_2019,
         ex:Year_2024 ;
@@ -13956,14 +14206,18 @@ ex:Journal_83 a ex:Event,
         ex:Paper_fc14be9376dc35069f58cf2f777952694437f1ff .
 
 ex:Journal_88 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Computer communication review" ;
     ex:hasVenue ex:Venue_Computer_communication_review ;
     ex:hasYear ex:Year_2023 ;
     ex:includes ex:Paper_552271f22a591b29a2cca23f4ba39ea3880c8e79,
         ex:Paper_593f679bb6541bffe28401d47c1a7c6ee411d9f1 .
 
 ex:Journal_98 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Human-Centric Computing and Information Sciences" ;
     ex:hasVenue ex:Venue_Human-Centric_Computing_and_Information_Sciences ;
     ex:hasYear ex:Year_2014,
         ex:Year_2015 ;
@@ -14000,7 +14254,9 @@ ex:Conference_90 ex:includes ex:Paper_10c6e5070faa24d2f7a823eff0c40f93d4ef8291,
         ex:Paper_f5f47322e3209d2d5de71ab21ed300a9f93281ff .
 
 ex:Journal_112 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "ACM Transactions on Computing Education" ;
     ex:hasVenue ex:Venue_ACM_Transactions_on_Computing_Education ;
     ex:hasYear ex:Year_2023,
         ex:Year_2024 ;
@@ -14009,7 +14265,9 @@ ex:Journal_112 a ex:Event,
         ex:Paper_874cded95b1f8cb362a102a15865f38a75e1bda7 .
 
 ex:Journal_124 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Journal of combinatorial optimization" ;
     ex:hasVenue ex:Venue_Journal_of_combinatorial_optimization ;
     ex:hasYear ex:Year_2016,
         ex:Year_2020,
@@ -14019,7 +14277,9 @@ ex:Journal_124 a ex:Event,
         ex:Paper_5c5143c613d0edd845aba18132b037386814f388 .
 
 ex:Journal_17 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Entropy" ;
     ex:hasVenue ex:Venue_Entropy ;
     ex:hasYear ex:Year_2022,
         ex:Year_2023 ;
@@ -14028,7 +14288,9 @@ ex:Journal_17 a ex:Event,
         ex:Paper_b4293f17cfdb1ad1f24aa687794f52001516dc94 .
 
 ex:Journal_26 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Machine-mediated learning" ;
     ex:hasVenue ex:Venue_Machine-mediated_learning ;
     ex:hasYear ex:Year_2017,
         ex:Year_2023 ;
@@ -14037,7 +14299,9 @@ ex:Journal_26 a ex:Event,
         ex:Paper_da981e00c5f4a2aa931d02ae2a3211b0a0ac1b63 .
 
 ex:Journal_27 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Image Processing" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Image_Processing ;
     ex:hasYear ex:Year_2023,
         ex:Year_2024 ;
@@ -14046,7 +14310,9 @@ ex:Journal_27 a ex:Event,
         ex:Paper_b57611c4ad704d2a9c44fad3bd1e062bc10e3d87 .
 
 ex:Journal_28 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "bioRxiv" ;
     ex:hasVenue ex:Venue_bioRxiv ;
     ex:hasYear ex:Year_2018,
         ex:Year_2020,
@@ -14056,7 +14322,9 @@ ex:Journal_28 a ex:Event,
         ex:Paper_d8cfdb075bf76e1ba6279337ac975a1b0d3d55bb .
 
 ex:Journal_4 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Transactions on Automation Science and Engineering" ;
     ex:hasVenue ex:Venue_IEEE_Transactions_on_Automation_Science_and_Engineering ;
     ex:hasYear ex:Year_2023,
         ex:Year_2024 ;
@@ -14065,7 +14333,9 @@ ex:Journal_4 a ex:Event,
         ex:Paper_ea0cb965e2a5190d2497caddbbb79e7036d207cf .
 
 ex:Journal_50 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "ACM Transactions on Software Engineering and Methodology" ;
     ex:hasVenue ex:Venue_ACM_Transactions_on_Software_Engineering_and_Methodology ;
     ex:hasYear ex:Year_2020,
         ex:Year_2023,
@@ -14075,7 +14345,9 @@ ex:Journal_50 a ex:Event,
         ex:Paper_f4ba0defbf903dae5fe7e427b6a77d0c4d7948eb .
 
 ex:Journal_59 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Applied Sciences" ;
     ex:hasVenue ex:Venue_Applied_Sciences ;
     ex:hasYear ex:Year_2020,
         ex:Year_2021 ;
@@ -14084,7 +14356,9 @@ ex:Journal_59 a ex:Event,
         ex:Paper_eb009311ec785844e49ac3bc24c23e3c21007efe .
 
 ex:Journal_77 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "Neural Networks" ;
     ex:hasVenue ex:Venue_Neural_Networks ;
     ex:hasYear ex:Year_2013,
         ex:Year_2018,
@@ -14122,7 +14396,9 @@ ex:Conference_88 ex:includes ex:Paper_00133d41d5ecef1a9d046d2b92bb2a23a335cb7c,
         ex:Paper_467227272889a8307c83a1b2ffd1daad6d8d8bfa .
 
 ex:Journal_37 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Access" ;
     ex:hasVenue ex:Venue_IEEE_Access ;
     ex:hasYear ex:Year_2020,
         ex:Year_2021,
@@ -14318,7 +14594,9 @@ ex:Conference_21 ex:includes ex:Paper_0010fabe2a25b36c5bcf6057baafb61a40e37e3b,
         ex:Paper_cc40bf6fdb7047912277051b9ec9d55f0c6d110d .
 
 ex:Journal_3 a ex:Event,
-        ex:Journal ;
+        ex:Journal,
+        ex:PaperCollection ;
+    rdfs:label "IEEE Internet of Things Journal" ;
     ex:hasVenue ex:Venue_IEEE_Internet_of_Things_Journal ;
     ex:hasYear ex:Year_2019,
         ex:Year_2021,
@@ -22101,7 +22379,9 @@ ex:Paper_ffa6358e22a4a64e405bc265ffe7af433c159891 ex:cites ex:Paper_0300f645e2af
     ex:publisedAt ex:Journal_42 .
 
 ex:Conference_1 a ex:Conference,
-        ex:Event ;
+        ex:Event,
+        ex:PaperCollection ;
+    rdfs:label "Global Communications Conference" ;
     ex:hasVenue ex:Venue_Global_Communications_Conference ;
     ex:hasYear ex:Year_2020,
         ex:Year_2021,
