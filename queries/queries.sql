@@ -17,7 +17,7 @@ HAVING (COUNT(?paper) > 1)
 ORDER BY DESC(?paperCount)
 
 
--- What is the growth of papers and authors by venue and year discussing a topic ‘X’?
+-- What is the growth of papers and authors year discussing a topic ‘data processing’?
 
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
